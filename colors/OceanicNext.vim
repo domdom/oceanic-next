@@ -26,7 +26,7 @@
   endif
 "}}}
 " {{{ Colors
-  let s:base00=['#1b2b34', '235']
+  let s:base00=['#191B1C', '0']
   let s:base01=['#343d46', '237']
   let s:base02=['#4f5b66', '240']
   let s:base03=['#65737e', '243']
@@ -169,11 +169,11 @@ call <sid>hi('DiffAdd',                    s:base0B, s:base01, '',          '')
 call <sid>hi('DiffChange',                 s:base03, s:base01, '',          '')
 call <sid>hi('DiffDelete',                 s:base08, s:base01, '',          '')
 call <sid>hi('DiffText',                   s:base0D, s:base01, '',          '')
-call <sid>hi('DiffAdded',                  s:base0B, s:base00, '',          '')
-call <sid>hi('DiffFile',                   s:base08, s:base00, '',          '')
-call <sid>hi('DiffNewFile',                s:base0B, s:base00, '',          '')
-call <sid>hi('DiffLine',                   s:base0D, s:base00, '',          '')
-call <sid>hi('DiffRemoved',                s:base08, s:base00, '',          '')
+call <sid>hi('DiffAdded',                  s:base0B, s:none,   '',          '')
+call <sid>hi('DiffFile',                   s:base08, s:none,   '',          '')
+call <sid>hi('DiffNewFile',                s:base0B, s:none,   '',          '')
+call <sid>hi('DiffLine',                   s:base0D, s:none,   '',          '')
+call <sid>hi('DiffRemoved',                s:base08, s:none,   '',          '')
 
 call <sid>hi('gitCommitOverflow',          s:base08, '',       '',          '')
 call <sid>hi('gitCommitSummary',           s:base0B, '',       '',          '')

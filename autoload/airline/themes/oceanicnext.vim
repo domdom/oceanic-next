@@ -24,7 +24,7 @@
 " }}}
 
 let s:normal1   = [s:base00[0], s:base0C[0], s:base00[1], s:base0C[1]]
-let s:normal2   = [s:base00[0], s:base03[0], s:base00[1], s:base03[1]]
+let s:normal2   = [s:base10[0], s:base03[0], s:base10[1], s:base03[1]]
 let s:normal3   = [s:base07[0], s:base01[0], s:base07[1], s:base01[1]]
 let s:inactive1 = [s:base07[0], s:base03[0], s:base07[1], s:base03[1]]
 let s:inactive2 = [s:base07[0], s:base01[0], s:base07[1], s:base01[1]]
